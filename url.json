@@ -1,0 +1,5 @@
+{
+    "forRequest": ["https://www.google.com/"],
+    "forSignalR": ["wss://tunnel.xxxx.net/svc"],
+    "forSignalRAlpha": ["https://www.google.com/"]
+}

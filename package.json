@@ -1,0 +1,32 @@
+{
+    "name": "test-api",
+    "icon": "./favicon.ico",
+    "version": "1.0.2",
+    "description": "Test API & SignalR with Node",
+    "keywords": ["test", "api", "signalr"],
+    "main": "app.js",
+    "bin": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "pkg . --out-dir output",
+        "build64": "pkg . -t node6-win-x64 --out-dir output",
+        "start": "node app.js"
+    },
+    "author": "RayLin <ray102467@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^2.1.0",
+        "prompt": "^1.0.0",
+        "readline-sync": "^1.4.9",
+        "request": "^2.83.0",
+        "signalr-client": "0.0.17",
+        "winston": "^3.0.0-rc0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://"
+    },
+    "engines": {
+        "node": ">=8.0.0"
+    }
+}
